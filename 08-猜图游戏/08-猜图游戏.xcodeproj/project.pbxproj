@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2FF74F1D2683E100FBD8DC /* LaunchImage-1334@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FF74E1D2683E100FBD8DC /* LaunchImage-1334@2x.png */; };
+		7E3742651D23BEF700E35991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3742641D23BEF700E35991 /* main.m */; };
+		7E3742681D23BEF700E35991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3742671D23BEF700E35991 /* AppDelegate.m */; };
+		7E37426B1D23BEF700E35991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E37426A1D23BEF700E35991 /* ViewController.m */; };
+		7E37426E1D23BEF700E35991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E37426C1D23BEF700E35991 /* Main.storyboard */; };
+		7E3742701D23BEF700E35991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E37426F1D23BEF700E35991 /* Assets.xcassets */; };
+		7E3742731D23BEF700E35991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3742711D23BEF700E35991 /* LaunchScreen.storyboard */; };
+		7E37427E1D23BEF700E35991 /* _8_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E37427D1D23BEF700E35991 /* _8_____Tests.m */; };
+		7E3742891D23BEF700E35991 /* _8_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3742881D23BEF700E35991 /* _8_____UITests.m */; };
+		7E3742971D23C2AB00E35991 /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E3742961D23C2AB00E35991 /* questions.plist */; };
+		7E37429A1D23D71C00E35991 /* QuestionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3742991D23D71C00E35991 /* QuestionModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E37427A1D23BEF700E35991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3742581D23BEF700E35991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E37425F1D23BEF700E35991;
+			remoteInfo = "08-猜图游戏";
+		};
+		7E3742851D23BEF700E35991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E3742581D23BEF700E35991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E37425F1D23BEF700E35991;
+			remoteInfo = "08-猜图游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E2FF74E1D2683E100FBD8DC /* LaunchImage-1334@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-1334@2x.png"; sourceTree = "<group>"; };
+		7E3742601D23BEF700E35991 /* 08-猜图游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "08-猜图游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3742641D23BEF700E35991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E3742661D23BEF700E35991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E3742671D23BEF700E35991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E3742691D23BEF700E35991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E37426A1D23BEF700E35991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E37426D1D23BEF700E35991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E37426F1D23BEF700E35991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E3742721D23BEF700E35991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E3742741D23BEF700E35991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3742791D23BEF700E35991 /* 08-猜图游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-猜图游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E37427D1D23BEF700E35991 /* _8_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8_____Tests.m"; sourceTree = "<group>"; };
+		7E37427F1D23BEF700E35991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3742841D23BEF700E35991 /* 08-猜图游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-猜图游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E3742881D23BEF700E35991 /* _8_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_8_____UITests.m"; sourceTree = "<group>"; };
+		7E37428A1D23BEF700E35991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E3742961D23C2AB00E35991 /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		7E3742981D23D71C00E35991 /* QuestionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionModel.h; sourceTree = "<group>"; };
+		7E3742991D23D71C00E35991 /* QuestionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E37425D1D23BEF700E35991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3742761D23BEF700E35991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3742811D23BEF700E35991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E3742571D23BEF700E35991 = {
+			isa = PBXGroup;
+			children = (
+				7E3742621D23BEF700E35991 /* 08-猜图游戏 */,
+				7E37427C1D23BEF700E35991 /* 08-猜图游戏Tests */,
+				7E3742871D23BEF700E35991 /* 08-猜图游戏UITests */,
+				7E3742611D23BEF700E35991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E3742611D23BEF700E35991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E3742601D23BEF700E35991 /* 08-猜图游戏.app */,
+				7E3742791D23BEF700E35991 /* 08-猜图游戏Tests.xctest */,
+				7E3742841D23BEF700E35991 /* 08-猜图游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E3742621D23BEF700E35991 /* 08-猜图游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				7E37429B1D23D72500E35991 /* Model */,
+				7E3742661D23BEF700E35991 /* AppDelegate.h */,
+				7E3742671D23BEF700E35991 /* AppDelegate.m */,
+				7E3742691D23BEF700E35991 /* ViewController.h */,
+				7E37426A1D23BEF700E35991 /* ViewController.m */,
+				7E37426C1D23BEF700E35991 /* Main.storyboard */,
+				7E37426F1D23BEF700E35991 /* Assets.xcassets */,
+				7E3742711D23BEF700E35991 /* LaunchScreen.storyboard */,
+				7E3742741D23BEF700E35991 /* Info.plist */,
+				7E3742631D23BEF700E35991 /* Supporting Files */,
+			);
+			path = "08-猜图游戏";
+			sourceTree = "<group>";
+		};
+		7E3742631D23BEF700E35991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E2FF74E1D2683E100FBD8DC /* LaunchImage-1334@2x.png */,
+				7E3742961D23C2AB00E35991 /* questions.plist */,
+				7E3742641D23BEF700E35991 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E37427C1D23BEF700E35991 /* 08-猜图游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E37427D1D23BEF700E35991 /* _8_____Tests.m */,
+				7E37427F1D23BEF700E35991 /* Info.plist */,
+			);
+			path = "08-猜图游戏Tests";
+			sourceTree = "<group>";
+		};
+		7E3742871D23BEF700E35991 /* 08-猜图游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E3742881D23BEF700E35991 /* _8_____UITests.m */,
+				7E37428A1D23BEF700E35991 /* Info.plist */,
+			);
+			path = "08-猜图游戏UITests";
+			sourceTree = "<group>";
+		};
+		7E37429B1D23D72500E35991 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E3742981D23D71C00E35991 /* QuestionModel.h */,
+				7E3742991D23D71C00E35991 /* QuestionModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E37425F1D23BEF700E35991 /* 08-猜图游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E37428D1D23BEF700E35991 /* Build configuration list for PBXNativeTarget "08-猜图游戏" */;
+			buildPhases = (
+				7E37425C1D23BEF700E35991 /* Sources */,
+				7E37425D1D23BEF700E35991 /* Frameworks */,
+				7E37425E1D23BEF700E35991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "08-猜图游戏";
+			productName = "08-猜图游戏";
+			productReference = 7E3742601D23BEF700E35991 /* 08-猜图游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E3742781D23BEF700E35991 /* 08-猜图游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3742901D23BEF700E35991 /* Build configuration list for PBXNativeTarget "08-猜图游戏Tests" */;
+			buildPhases = (
+				7E3742751D23BEF700E35991 /* Sources */,
+				7E3742761D23BEF700E35991 /* Frameworks */,
+				7E3742771D23BEF700E35991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E37427B1D23BEF700E35991 /* PBXTargetDependency */,
+			);
+			name = "08-猜图游戏Tests";
+			productName = "08-猜图游戏Tests";
+			productReference = 7E3742791D23BEF700E35991 /* 08-猜图游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E3742831D23BEF700E35991 /* 08-猜图游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E3742931D23BEF700E35991 /* Build configuration list for PBXNativeTarget "08-猜图游戏UITests" */;
+			buildPhases = (
+				7E3742801D23BEF700E35991 /* Sources */,
+				7E3742811D23BEF700E35991 /* Frameworks */,
+				7E3742821D23BEF700E35991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E3742861D23BEF700E35991 /* PBXTargetDependency */,
+			);
+			name = "08-猜图游戏UITests";
+			productName = "08-猜图游戏UITests";
+			productReference = 7E3742841D23BEF700E35991 /* 08-猜图游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E3742581D23BEF700E35991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SDD;
+				TargetAttributes = {
+					7E37425F1D23BEF700E35991 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 22U5BK4X7S;
+					};
+					7E3742781D23BEF700E35991 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P23TNUYQ7Q;
+						TestTargetID = 7E37425F1D23BEF700E35991;
+					};
+					7E3742831D23BEF700E35991 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P23TNUYQ7Q;
+						TestTargetID = 7E37425F1D23BEF700E35991;
+					};
+				};
+			};
+			buildConfigurationList = 7E37425B1D23BEF700E35991 /* Build configuration list for PBXProject "08-猜图游戏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E3742571D23BEF700E35991;
+			productRefGroup = 7E3742611D23BEF700E35991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E37425F1D23BEF700E35991 /* 08-猜图游戏 */,
+				7E3742781D23BEF700E35991 /* 08-猜图游戏Tests */,
+				7E3742831D23BEF700E35991 /* 08-猜图游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E37425E1D23BEF700E35991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3742971D23C2AB00E35991 /* questions.plist in Resources */,
+				7E3742731D23BEF700E35991 /* LaunchScreen.storyboard in Resources */,
+				7E3742701D23BEF700E35991 /* Assets.xcassets in Resources */,
+				7E2FF74F1D2683E100FBD8DC /* LaunchImage-1334@2x.png in Resources */,
+				7E37426E1D23BEF700E35991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3742771D23BEF700E35991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3742821D23BEF700E35991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E37425C1D23BEF700E35991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E37426B1D23BEF700E35991 /* ViewController.m in Sources */,
+				7E3742681D23BEF700E35991 /* AppDelegate.m in Sources */,
+				7E3742651D23BEF700E35991 /* main.m in Sources */,
+				7E37429A1D23D71C00E35991 /* QuestionModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3742751D23BEF700E35991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E37427E1D23BEF700E35991 /* _8_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3742801D23BEF700E35991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E3742891D23BEF700E35991 /* _8_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E37427B1D23BEF700E35991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E37425F1D23BEF700E35991 /* 08-猜图游戏 */;
+			targetProxy = 7E37427A1D23BEF700E35991 /* PBXContainerItemProxy */;
+		};
+		7E3742861D23BEF700E35991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E37425F1D23BEF700E35991 /* 08-猜图游戏 */;
+			targetProxy = 7E3742851D23BEF700E35991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E37426C1D23BEF700E35991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E37426D1D23BEF700E35991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E3742711D23BEF700E35991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E3742721D23BEF700E35991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E37428B1D23BEF700E35991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E37428C1D23BEF700E35991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E37428E1D23BEF700E35991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "08-猜图游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-8-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E37428F1D23BEF700E35991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "08-猜图游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-8-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E3742911D23BEF700E35991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "08-猜图游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-8-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08-猜图游戏.app/08-猜图游戏";
+			};
+			name = Debug;
+		};
+		7E3742921D23BEF700E35991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "08-猜图游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-8-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/08-猜图游戏.app/08-猜图游戏";
+			};
+			name = Release;
+		};
+		7E3742941D23BEF700E35991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08-猜图游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-8-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "08-猜图游戏";
+			};
+			name = Debug;
+		};
+		7E3742951D23BEF700E35991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "08-猜图游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-8-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "08-猜图游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E37425B1D23BEF700E35991 /* Build configuration list for PBXProject "08-猜图游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E37428B1D23BEF700E35991 /* Debug */,
+				7E37428C1D23BEF700E35991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E37428D1D23BEF700E35991 /* Build configuration list for PBXNativeTarget "08-猜图游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E37428E1D23BEF700E35991 /* Debug */,
+				7E37428F1D23BEF700E35991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3742901D23BEF700E35991 /* Build configuration list for PBXNativeTarget "08-猜图游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3742911D23BEF700E35991 /* Debug */,
+				7E3742921D23BEF700E35991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E3742931D23BEF700E35991 /* Build configuration list for PBXNativeTarget "08-猜图游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3742941D23BEF700E35991 /* Debug */,
+				7E3742951D23BEF700E35991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E3742581D23BEF700E35991 /* Project object */;
+}

@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2999261D3F19E200AC7902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2999251D3F19E200AC7902 /* main.m */; };
+		7E2999291D3F19E200AC7902 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2999281D3F19E200AC7902 /* AppDelegate.m */; };
+		7E29992C1D3F19E200AC7902 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29992B1D3F19E200AC7902 /* ViewController.m */; };
+		7E29992F1D3F19E200AC7902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E29992D1D3F19E200AC7902 /* Main.storyboard */; };
+		7E2999311D3F19E200AC7902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E2999301D3F19E200AC7902 /* Assets.xcassets */; };
+		7E2999341D3F19E200AC7902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2999321D3F19E200AC7902 /* LaunchScreen.storyboard */; };
+		7E29993F1D3F19E200AC7902 /* _0___autoresizing______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E29993E1D3F19E200AC7902 /* _0___autoresizing______Tests.m */; };
+		7E29994A1D3F19E200AC7902 /* _0___autoresizing______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2999491D3F19E200AC7902 /* _0___autoresizing______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E29993B1D3F19E200AC7902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2999191D3F19E200AC7902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E2999201D3F19E200AC7902;
+			remoteInfo = "20-使用autoresizing实现屏幕适配";
+		};
+		7E2999461D3F19E200AC7902 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E2999191D3F19E200AC7902 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E2999201D3F19E200AC7902;
+			remoteInfo = "20-使用autoresizing实现屏幕适配";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E2999211D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20-使用autoresizing实现屏幕适配.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2999251D3F19E200AC7902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E2999271D3F19E200AC7902 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E2999281D3F19E200AC7902 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E29992A1D3F19E200AC7902 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E29992B1D3F19E200AC7902 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E29992E1D3F19E200AC7902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E2999301D3F19E200AC7902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E2999331D3F19E200AC7902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E2999351D3F19E200AC7902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E29993A1D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20-使用autoresizing实现屏幕适配Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E29993E1D3F19E200AC7902 /* _0___autoresizing______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0___autoresizing______Tests.m"; sourceTree = "<group>"; };
+		7E2999401D3F19E200AC7902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2999451D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20-使用autoresizing实现屏幕适配UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2999491D3F19E200AC7902 /* _0___autoresizing______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0___autoresizing______UITests.m"; sourceTree = "<group>"; };
+		7E29994B1D3F19E200AC7902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E29991E1D3F19E200AC7902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2999371D3F19E200AC7902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2999421D3F19E200AC7902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E2999181D3F19E200AC7902 = {
+			isa = PBXGroup;
+			children = (
+				7E2999231D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配 */,
+				7E29993D1D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests */,
+				7E2999481D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests */,
+				7E2999221D3F19E200AC7902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E2999221D3F19E200AC7902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E2999211D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配.app */,
+				7E29993A1D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests.xctest */,
+				7E2999451D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E2999231D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配 */ = {
+			isa = PBXGroup;
+			children = (
+				7E2999271D3F19E200AC7902 /* AppDelegate.h */,
+				7E2999281D3F19E200AC7902 /* AppDelegate.m */,
+				7E29992A1D3F19E200AC7902 /* ViewController.h */,
+				7E29992B1D3F19E200AC7902 /* ViewController.m */,
+				7E29992D1D3F19E200AC7902 /* Main.storyboard */,
+				7E2999301D3F19E200AC7902 /* Assets.xcassets */,
+				7E2999321D3F19E200AC7902 /* LaunchScreen.storyboard */,
+				7E2999351D3F19E200AC7902 /* Info.plist */,
+				7E2999241D3F19E200AC7902 /* Supporting Files */,
+			);
+			path = "20-使用autoresizing实现屏幕适配";
+			sourceTree = "<group>";
+		};
+		7E2999241D3F19E200AC7902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E2999251D3F19E200AC7902 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E29993D1D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E29993E1D3F19E200AC7902 /* _0___autoresizing______Tests.m */,
+				7E2999401D3F19E200AC7902 /* Info.plist */,
+			);
+			path = "20-使用autoresizing实现屏幕适配Tests";
+			sourceTree = "<group>";
+		};
+		7E2999481D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E2999491D3F19E200AC7902 /* _0___autoresizing______UITests.m */,
+				7E29994B1D3F19E200AC7902 /* Info.plist */,
+			);
+			path = "20-使用autoresizing实现屏幕适配UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E2999201D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E29994E1D3F19E200AC7902 /* Build configuration list for PBXNativeTarget "20-使用autoresizing实现屏幕适配" */;
+			buildPhases = (
+				7E29991D1D3F19E200AC7902 /* Sources */,
+				7E29991E1D3F19E200AC7902 /* Frameworks */,
+				7E29991F1D3F19E200AC7902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20-使用autoresizing实现屏幕适配";
+			productName = "20-使用autoresizing实现屏幕适配";
+			productReference = 7E2999211D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E2999391D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2999511D3F19E200AC7902 /* Build configuration list for PBXNativeTarget "20-使用autoresizing实现屏幕适配Tests" */;
+			buildPhases = (
+				7E2999361D3F19E200AC7902 /* Sources */,
+				7E2999371D3F19E200AC7902 /* Frameworks */,
+				7E2999381D3F19E200AC7902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E29993C1D3F19E200AC7902 /* PBXTargetDependency */,
+			);
+			name = "20-使用autoresizing实现屏幕适配Tests";
+			productName = "20-使用autoresizing实现屏幕适配Tests";
+			productReference = 7E29993A1D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E2999441D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E2999541D3F19E200AC7902 /* Build configuration list for PBXNativeTarget "20-使用autoresizing实现屏幕适配UITests" */;
+			buildPhases = (
+				7E2999411D3F19E200AC7902 /* Sources */,
+				7E2999421D3F19E200AC7902 /* Frameworks */,
+				7E2999431D3F19E200AC7902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E2999471D3F19E200AC7902 /* PBXTargetDependency */,
+			);
+			name = "20-使用autoresizing实现屏幕适配UITests";
+			productName = "20-使用autoresizing实现屏幕适配UITests";
+			productReference = 7E2999451D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E2999191D3F19E200AC7902 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SDD;
+				TargetAttributes = {
+					7E2999201D3F19E200AC7902 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7E2999391D3F19E200AC7902 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E2999201D3F19E200AC7902;
+					};
+					7E2999441D3F19E200AC7902 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E2999201D3F19E200AC7902;
+					};
+				};
+			};
+			buildConfigurationList = 7E29991C1D3F19E200AC7902 /* Build configuration list for PBXProject "20-使用autoresizing实现屏幕适配" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E2999181D3F19E200AC7902;
+			productRefGroup = 7E2999221D3F19E200AC7902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E2999201D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配 */,
+				7E2999391D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配Tests */,
+				7E2999441D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E29991F1D3F19E200AC7902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2999341D3F19E200AC7902 /* LaunchScreen.storyboard in Resources */,
+				7E2999311D3F19E200AC7902 /* Assets.xcassets in Resources */,
+				7E29992F1D3F19E200AC7902 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2999381D3F19E200AC7902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2999431D3F19E200AC7902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E29991D1D3F19E200AC7902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E29992C1D3F19E200AC7902 /* ViewController.m in Sources */,
+				7E2999291D3F19E200AC7902 /* AppDelegate.m in Sources */,
+				7E2999261D3F19E200AC7902 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2999361D3F19E200AC7902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E29993F1D3F19E200AC7902 /* _0___autoresizing______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2999411D3F19E200AC7902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E29994A1D3F19E200AC7902 /* _0___autoresizing______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E29993C1D3F19E200AC7902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E2999201D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配 */;
+			targetProxy = 7E29993B1D3F19E200AC7902 /* PBXContainerItemProxy */;
+		};
+		7E2999471D3F19E200AC7902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E2999201D3F19E200AC7902 /* 20-使用autoresizing实现屏幕适配 */;
+			targetProxy = 7E2999461D3F19E200AC7902 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E29992D1D3F19E200AC7902 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E29992E1D3F19E200AC7902 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E2999321D3F19E200AC7902 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E2999331D3F19E200AC7902 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E29994C1D3F19E200AC7902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E29994D1D3F19E200AC7902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E29994F1D3F19E200AC7902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20-使用autoresizing实现屏幕适配/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-0---autoresizing------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E2999501D3F19E200AC7902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20-使用autoresizing实现屏幕适配/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-0---autoresizing------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E2999521D3F19E200AC7902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20-使用autoresizing实现屏幕适配Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-0---autoresizing------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20-使用autoresizing实现屏幕适配.app/20-使用autoresizing实现屏幕适配";
+			};
+			name = Debug;
+		};
+		7E2999531D3F19E200AC7902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20-使用autoresizing实现屏幕适配Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-0---autoresizing------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20-使用autoresizing实现屏幕适配.app/20-使用autoresizing实现屏幕适配";
+			};
+			name = Release;
+		};
+		7E2999551D3F19E200AC7902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20-使用autoresizing实现屏幕适配UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-0---autoresizing------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20-使用autoresizing实现屏幕适配";
+			};
+			name = Debug;
+		};
+		7E2999561D3F19E200AC7902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20-使用autoresizing实现屏幕适配UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.sdd.-0---autoresizing------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20-使用autoresizing实现屏幕适配";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E29991C1D3F19E200AC7902 /* Build configuration list for PBXProject "20-使用autoresizing实现屏幕适配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E29994C1D3F19E200AC7902 /* Debug */,
+				7E29994D1D3F19E200AC7902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E29994E1D3F19E200AC7902 /* Build configuration list for PBXNativeTarget "20-使用autoresizing实现屏幕适配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E29994F1D3F19E200AC7902 /* Debug */,
+				7E2999501D3F19E200AC7902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E2999511D3F19E200AC7902 /* Build configuration list for PBXNativeTarget "20-使用autoresizing实现屏幕适配Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2999521D3F19E200AC7902 /* Debug */,
+				7E2999531D3F19E200AC7902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E2999541D3F19E200AC7902 /* Build configuration list for PBXNativeTarget "20-使用autoresizing实现屏幕适配UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E2999551D3F19E200AC7902 /* Debug */,
+				7E2999561D3F19E200AC7902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E2999191D3F19E200AC7902 /* Project object */;
+}
